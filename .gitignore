@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.log
+
+# 项目生成的临时文件夹与媒体
+output/
+uploads/
+img/
+QA_Reports/
+
+# 打包文件与归档
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Trae/IDE 配置
+.trae/
+.idea/
+.vscode/

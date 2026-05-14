@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.log
+
+# 项目输出与媒体资源 (避免打包进镜像导致镜像体积过大)
+output/
+uploads/
+img/
+
+# 归档文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
